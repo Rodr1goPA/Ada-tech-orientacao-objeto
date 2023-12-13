@@ -14,5 +14,5 @@ export class Trilha {
   static atualizarProduto(novoProduto) {
     this.cursos.slice(novoProduto.id-1, 1);
     this.cursos[novoProduto.id-1] = novoProduto;
-  }  
+  }
 }

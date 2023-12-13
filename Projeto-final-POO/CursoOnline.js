@@ -1,5 +1,4 @@
 import { Curso } from './Curso.js'
-
 export class CursoOnline extends Curso {
   constructor(nome, cargaHoraria, valor, plataforma) {
     super(nome, cargaHoraria, valor)

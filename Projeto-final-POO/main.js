@@ -16,7 +16,6 @@ const curso2 = new CursoPresencial(
   'http://teste.com.br'
 )
 
-
 const cursoEdit = new CursoOnline(
   'javascript',
   '300hs',
@@ -25,12 +24,31 @@ const cursoEdit = new CursoOnline(
 )
 cursoEdit.id = 1
 
+//Adicionar curso
 Trilha.adicionarCurso(curso1)
 Trilha.adicionarCurso(curso2)
 console.log(Trilha.cursos)
 
-Trilha.deletarCurso(1)
-console.log(Trilha.cursos)
+//Atualizar informações do curso
+//Trilha.atualizarProduto(cursoEdit)
+//console.log(Trilha.cursos)
 
-Trilha.atualizarProduto(cursoEdit)
-console.log(Trilha.cursos)
+//Deletar curso
+//Trilha.deletarCurso(1)
+//console.log(Trilha.cursos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
