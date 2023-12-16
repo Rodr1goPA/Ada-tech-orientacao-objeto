@@ -34,8 +34,8 @@ console.log(Trilha.cursos)
 //console.log(Trilha.cursos)
 
 //Deletar curso
-//Trilha.deletarCurso(1)
-//console.log(Trilha.cursos)
+Trilha.deletarCurso(1)
+console.log(Trilha.cursos)
 
 
 
